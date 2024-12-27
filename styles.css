@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+body{
+    display: grid;
+    margin: 10px; 
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    
+    display: grid;
+    margin: 10px;
+    
+}
+
+header {
+    
+    background-color: red;
+    color: #fff; /* Texto blanco para contraste */
+    padding: 10px 20px;
+    position: fixed; /* Fijo en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    border-bottom: 2px solid #FFD011; /* Detalle decorativo */
+}
+.header{
+    display: flex;
+    gap: 960px;
+    
+}
+
+.header .brand {
+   
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white; /* Resalta la marca */
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+.navigation {
+   
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre elementos */
+    margin: 0;
+    padding: 0;
+    padding-top: 6px;
+}
+
+.navigation li {
+    
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transición suave al pasar el cursor */
+}
+
+.navigation li:hover {
+    color: #FFD011; /* Cambia el color al pasar el cursor */
+}
+
+
+
+
+.foto{
+    margin: 10vh 40vh;
+    display: flex;
+}
+
+.titulo{
+    font-size: 32px;
+}
+
+.yo{
+    width: 40%;
+    border-radius: 100px;
+}
+
+.presentacion{
+    margin: 0 5vh;
+    line-height: 1.6;
+}
+
+
+input{
+    margin: 10px 0;
+    padding: 6px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px; 
+    
+}
+
+
+input:hover{
+    background-color: black;
+}
+
+.btn1{
+    background-color: aliceblue;
+    color: black;
+}
+
+.btn1:hover{
+    color: white;
+}
+.sobre-mi{
+    margin: 0 40vh;
+    margin-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+
+.sobre-mi h1{
+    margin-bottom: 10px;
+}
+
+.p1{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.info-1{
+    margin-top: 30px;
+}
+
+.tecnologias{
+    margin: 0 40vh;
+    line-height: 1.6;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.t1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 10px;
+    color: white;
+    
+}
+
+.p2{
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: black;
+}
+
+.experiencia{
+    margin: 0 40vh;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+.proyectos{
+    margin: 0 40vh;
+    width: auto;
+    line-height: 1.6;
+}
+
+.ptos{
+    display: flex;
+    gap: 10vh;
+    margin-bottom: 100px;
+    line-height: 1.6;
+}
+
+.vial{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.proyecto-1{
+    margin-bottom: 100px;
+}
+
+.tecnologias-2{
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.formacion{
+    margin: 0 40vh;
+    width: auto;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    gap: 39rem;
+}
+
+.niveles{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.escuelas{
+    line-height: 2.6;
+}
+
+.p-1{
+    margin-bottom: 7rem;
+}
+
+.p-2{
+    margin-bottom: 4rem;
+}
+
+.footer{
+    margin: 0 40vh;
+    width: auto;
+    line-height: 1.6;
+}
